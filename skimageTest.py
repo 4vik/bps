@@ -3,7 +3,8 @@ import numpy as np
 
 
 def detect_circle(image):
-    img = cv2.imread(image, cv2.IMREAD_GRAYSCALE)
+    captcha_path = "captchas/"
+    img = cv2.imread(captcha_path + image, cv2.IMREAD_GRAYSCALE)
     height, width = img.shape
     square_img = cv2.resize(img, (height, height))
 
