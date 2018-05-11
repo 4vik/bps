@@ -356,7 +356,7 @@
 			"file": "OpenCVTest.sublime-project",
 			"settings":
 			{
-				"buffer_size": 548,
+				"buffer_size": 504,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -533,6 +533,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"e",
+				"Project: Edit Project"
+			],
 			[
 				"edi",
 				"Project: Edit Project"
@@ -1028,7 +1032,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1037,15 +1041,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 548,
+						"buffer_size": 504,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								296,
-								296
+								318,
+								318
 							]
 						],
 						"settings":
@@ -1062,11 +1066,11 @@
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 185.666666667,
+						"translation.x": 54.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1250,7 +1254,7 @@
 						"translation.y": 209.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1553,10 +1557,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 133.333333333,
+						"translation.y": 112.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1946,7 +1950,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

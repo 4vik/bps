@@ -5,7 +5,7 @@
 			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
 			"name": "Anaconda Python Builder",
 			"selector": "source.python",
-   			"cmd": ["C:/Users/Olivier/AppData/Local/conda/conda/envs/myWindowsCV/python.exe", "-u", "-O", "$file"],
+			"cmd": ["C:/Users/Olivier/AppData/Local/conda/conda/envs/myWindowsCV/python.exe", "-u", "$file"]
 		}
 	],
 	"folders":
