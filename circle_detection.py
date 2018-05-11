@@ -14,24 +14,28 @@ def detect_circle(image):
                               param2=1, 
                               minRadius=int(height * 0.25 * 0.5),
                               maxRadius=int(height * 0.5 * 0.5))
-    if circles is None:
-        cv2.imshow('no circles', square_img)
-        cv2.waitKey(0)
-        cv2.destroyAllWindows()
-        return
-    else:
-        for i in circles[0, :]:
-            # draw the outer circle
-            cv2.circle(square_img, (i[0], i[1]), i[2], (0, 255, 0), 3)
-            # draw the center of the circle
-            cv2.circle(square_img, (i[0], i[1]), 2, (0, 0, 255), 3)
+    if __debug__:
+      img_col = cv2.imread(captcha_path + image, cv2.IMREAD_COLOR)
+      square_img_col = cv2.resize(img_col, (height, height))
+      if circles is None:
+          cv2.imshow('no circles', square_img_col)
+          cv2.waitKey(0)
+          cv2.destroyAllWindows()
+          return
+      else:
+          for i in circles[0, :]:
+              # draw the outer circle
+              cv2.circle(square_img_col, (i[0], i[1]), i[2], (0, 255, 0), 3)
+              # draw the center of the circle
+              cv2.circle(square_img_col, (i[0], i[1]), 2, (0, 0, 255), 3)
 
-    cv2.imshow('detected circles in ' + image, square_img)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+      cv2.imshow('detected circles in ' + image, square_img_col)
+      #cv2.waitKey(0)
+      cv2.destroyAllWindows()
 
 
 detect_circle('captcha_1.jpg')
 detect_circle('captcha_2.jpg')
 detect_circle('captcha_3.jpg')
 detect_circle('captcha_4.jpg')
+print("Finished circle detection")

@@ -356,7 +356,7 @@
 			"file": "OpenCVTest.sublime-project",
 			"settings":
 			{
-				"buffer_size": 436,
+				"buffer_size": 548,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -383,7 +383,7 @@
 			"file": "circle_detection.py",
 			"settings":
 			{
-				"buffer_size": 1206,
+				"buffer_size": 1460,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -392,7 +392,7 @@
 			"file": "circle_detection.py",
 			"settings":
 			{
-				"buffer_size": 1206,
+				"buffer_size": 1460,
 				"line_ending": "Windows"
 			}
 		},
@@ -432,7 +432,7 @@
 			"file": "/C/Users/Olivier/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
 			"settings":
 			{
-				"buffer_size": 369,
+				"buffer_size": 450,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -534,6 +534,18 @@
 		"selected_items":
 		[
 			[
+				"edi",
+				"Project: Edit Project"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
 				"project",
 				"Project: Close"
 			],
@@ -616,10 +628,6 @@
 			[
 				"bro",
 				"Preferences: Browse Packages"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"packa",
@@ -776,18 +784,17 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Olivier/CloudStation/Studium/OpenCVTest",
-		"/C/Users/Olivier/CloudStation/Studium/OpenCVTest/captchas"
+		"/C/Users/Olivier/CloudStation/Studium/OpenCVTest"
 	],
 	"file_history":
 	[
+		"/C/Users/Olivier/CloudStation/Studium/OpenCVTest/circle_detection.py",
 		"/C/Users/Olivier/CloudStation/Studium/OpenCVTest/test.py",
 		"/C/Users/Olivier/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Completion Rules.tmPreferences",
 		"/C/Users/Olivier/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Default.sublime-commands",
 		"/C/Users/Olivier/CloudStation/Studium/OpenCVTest/autocomplete.py",
 		"/C/Users/Olivier/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
 		"/C/Users/Olivier/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Preferences.sublime-settings",
-		"/C/Users/Olivier/CloudStation/Studium/OpenCVTest/circle_detection.py",
 		"/C/Users/Olivier/CloudStation/Studium/OpenCVTest/screen_capture.py",
 		"/C/Users/Olivier/text.txt",
 		"/C/Users/Olivier/AppData/Roaming/Sublime Text 3/Packages/Anaconda/README.md",
@@ -955,7 +962,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -982,10 +989,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4080.0,
+						"translation.y": 4352.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -1001,19 +1008,27 @@
 						"selection":
 						[
 							[
-								195,
-								195
+								104,
+								2
 							]
 						],
 						"settings":
 						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "json"
+							},
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1022,28 +1037,36 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 436,
+						"buffer_size": 548,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								200,
-								200
+								296,
+								296
 							]
 						],
 						"settings":
 						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "json"
+							},
 							"open_with_edit": true,
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
+						"translation.x": 185.666666667,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1071,7 +1094,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -1165,7 +1188,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -1174,15 +1197,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1206,
+						"buffer_size": 1460,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								360,
-								360
+								1460,
+								1460
 							]
 						],
 						"settings":
@@ -1208,6 +1231,14 @@
 								{
 									"characters": ".",
 									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
 								}
 							],
 							"history_list_is_closing": true,
@@ -1216,10 +1247,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 209.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1228,15 +1259,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1206,
+						"buffer_size": 1460,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1169,
-								1169
+								1024,
+								1024
 							]
 						],
 						"settings":
@@ -1273,7 +1304,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
@@ -1306,7 +1337,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
@@ -1355,7 +1386,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -1384,7 +1415,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -1393,15 +1424,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1206,
+						"buffer_size": 1460,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1112,
-								1112
+								1332,
+								1332
 							]
 						],
 						"settings":
@@ -1429,30 +1460,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 10,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 10,
 					"file": "/C/Users/Olivier/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 369,
+						"buffer_size": 450,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								306,
-								306
+								373,
+								373
 							]
 						],
 						"settings":
@@ -1463,24 +1488,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
 					"buffer": 5,
 					"file": "circle_detection.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1206,
+						"buffer_size": 1460,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								468,
-								468
+								1460,
+								1460
 							]
 						],
 						"settings":
@@ -1506,6 +1537,14 @@
 								{
 									"characters": ".",
 									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
 								}
 							],
 							"history_list_is_closing": true,
@@ -1514,7 +1553,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 133.333333333,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1563,7 +1602,7 @@
 	"menu_visible": false,
 	"output.exec":
 	{
-		"height": 167.0
+		"height": 274.0
 	},
 	"output.find_results":
 	{
@@ -1577,7 +1616,7 @@
 	{
 		"height": 144.0
 	},
-	"pinned_build_system": "Packages/User/pythonOpenCV.sublime-build",
+	"pinned_build_system": "Anaconda Python Builder",
 	"project": "OpenCVTest.sublime-project",
 	"replace":
 	{
@@ -1591,12 +1630,16 @@
 		"selected_items":
 		[
 			[
+				"edi",
+				"circle_detection.py"
+			],
+			[
 				"ci",
 				"circle_detection.py"
 			],
 			[
 				"",
-				"circle_detection.py"
+				"C:\\Users\\Olivier\\CloudStation\\Studium\\OpenCVTest\\OpenCVTest.sublime-project"
 			],
 			[
 				"cir",
@@ -1910,8 +1953,8 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": false,
-	"side_bar_visible": true,
-	"side_bar_width": 233.0,
+	"side_bar_visible": false,
+	"side_bar_width": 215.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
