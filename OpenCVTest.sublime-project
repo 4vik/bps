@@ -11,15 +11,17 @@
 	"folders":
 	[
 		{
-			"path": ".",
-			"file_exclude_patterns": ["*.sublime-project"]
+			"file_exclude_patterns":
+			[
+				"*.sublime-project"
+			],
+			"path": "."
 		}
 	],
 	"settings":
 	[
 		{
-		"python_interpreter": "C:/Users/Olivier/AppData/Local/conda/conda/envs/myWindowsCV/python.exe"
+			"python_interpreter": "C:/Users/Olivier/AppData/Local/conda/conda/envs/myWindowsCV/python.exe"
 		}
 	]
-	
 }
